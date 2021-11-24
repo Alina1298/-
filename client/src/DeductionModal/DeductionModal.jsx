@@ -18,7 +18,7 @@ export default function DeductionModal() {
    const navigate = useNavigate()
 
   return (
-    <Modal isOpen={activeModal} toggle={() => navigate('/')}> 
+    <Modal className={styles["modal-content"]} isOpen={activeModal} toggle={() => navigate('/')}> 
     <ModalHeader>Налоговый вычет</ModalHeader>
     <ModalBody>
       <p className={styles.bodyModal}>

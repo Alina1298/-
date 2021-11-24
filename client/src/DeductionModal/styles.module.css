@@ -1,6 +1,5 @@
-.modalcontent {
-  background-color: white;
-  border-radius: 300px;
+.modal-content {
+  margin-top: 100px !important;
 }
 h5 {
   font-style: normal;
@@ -67,13 +66,95 @@ h5 {
 .buttonAdd {
   border: none;
   background: linear-gradient(
-    255.35deg,
-    #dc3131 0.83%,
-    rgba(255, 79, 79, 0) 108.93%
-  ),
-  #ff5e56;
+      255.35deg,
+      #dc3131 0.83%,
+      rgba(255, 79, 79, 0) 108.93%
+    ),
+    #ff5e56;
   width: 100%;
   border-radius: 10px;
   height: 50px;
   color: white;
+}
+@media (min-width: 768px) and (max-width: 1400px) and (orientation: landscape) {
+  .modal-content {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 10% !important;
+  }
+  .calculate,
+  .bodyModal {
+    line-height: 19px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1400px) and (orientation: portrait) {
+  .modal-content {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+@media (max-width: 767px) and (orientation: landscape) {
+  .modal-content {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px !important;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .calculate,
+  .bodyModal,
+  .textLeft {
+    line-height: 19px;
+    font-size: 14px;
+  }
+  .payment {
+    width: 65px;
+    height: 35px;
+    font-size: 14px;
+  }
+  .term {
+    width: 65px;
+    height: 35px;
+    font-size: 14px;
+  }
+  .paymentterm {
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  .bottom {
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .modal-content {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 10px !important;
+  }
+  .payment {
+    width: 65px;
+    height: 35px;
+    font-size: 14px;
+  }
+  .term {
+    width: 65px;
+    height: 35px;
+    font-size: 14px;
+  }
+  .paymentterm {
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  .bottom {
+    flex-direction: column;
+  }
+  .calculate,
+  .bodyModal,
+  .textLeft {
+    line-height: 19px;
+    font-size: 14px;
+  }
 }
