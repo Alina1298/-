@@ -4,11 +4,10 @@ const { v4: uuidv4 } = require("uuid");
 export default function EarlyPayments({salaryValue, procent}) {
   return (
     <>
+    {salaryValue ?
     <form>
     <label>Итого можете внести в качестве досрочных:</label>
-
-    {salaryValue ?
-     getPayments(salaryValue, procent)?.map((el) => 
+     {getPayments(salaryValue, procent)?.map((el) => 
      <div key={uuidv4()} style={{display:'flex'}}>
        
        
@@ -24,9 +23,10 @@ export default function EarlyPayments({salaryValue, procent}) {
      
      <div>{el?.years?.map((year) => <p key={uuidv4()}>в {year}-й год</p>)}</div>
      </div>
-      )
-      : null}
+      )}
       </form>
+      : null}
+      
     </>
   )
 }

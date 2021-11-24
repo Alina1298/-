@@ -1,9 +1,11 @@
-import { Button } from "reactstrap";
 import { useNavigate } from "react-router-dom";
+import styles from './styles.module.css'
 
 export default function MainPage() {
   const navigate = useNavigate()
   return (
-    <Button onClick={() => navigate('/deductionmodal')}>Налоговый вычет</Button>
+    <div className={styles.buttons}>
+      <button className={styles.button} onClick={() => navigate('/deductionmodal')}>Налоговый вычет</button>
+      </div>
   )
 }

@@ -1,4 +1,3 @@
-import "./App.css";
 import DeductionModal from "./DeductionModal/DeductionModal";
 import MainPage from "./MainPage/MainPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";

@@ -1,16 +1,79 @@
-.header {
-  color: rgb(99, 59, 33);
-  font-weight: 600;
-  text-align: center;
+.modalcontent {
+  background-color: white;
+  border-radius: 300px;
 }
-.modal_content {
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  background-color: rgba(142, 189, 167, 0.753);
-  height: auto;
-  width: auto;
+h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
 }
-.select {
+.bodyModal {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 24px;
+  color: #808080;
+}
+.textLeft {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  color: black;
+  padding-top: 20px;
+}
+.calculate {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 24px;
+  color: #ea0029;
+  border: none;
+  background-color: white;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.payment {
+  border: none;
+  background: linear-gradient(
+      255.35deg,
+      #dc3131 0.83%,
+      rgba(255, 79, 79, 0) 108.93%
+    ),
+    #ff5e56;
+  border-radius: 50px;
+  width: 100px;
   height: 50px;
+  color: white;
+}
+.term {
+  border: none;
+  background: #eef0f2;
+  border-radius: 50px;
+  width: 100px;
+  height: 50px;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.paymentterm {
+  display: flex;
+  justify-content: space-around;
+}
+.buttonAdd {
+  border: none;
+  background: linear-gradient(
+    255.35deg,
+    #dc3131 0.83%,
+    rgba(255, 79, 79, 0) 108.93%
+  ),
+  #ff5e56;
+  width: 100%;
+  border-radius: 10px;
+  height: 50px;
+  color: white;
 }
