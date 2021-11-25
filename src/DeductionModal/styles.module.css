@@ -1,30 +1,27 @@
-.modal-content {
-  margin-top: 100px !important;
-}
 h5 {
   font-style: normal;
   font-weight: 500;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 40px;
 }
 .bodyModal {
   font-style: normal;
   font-weight: normal;
-  font-size: 19px;
+  font-size: 14px;
   line-height: 24px;
   color: #808080;
 }
 .textLeft {
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 14px;
   color: black;
   padding-top: 20px;
 }
 .calculate {
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 14px;
   line-height: 24px;
   color: #ea0029;
   border: none;
@@ -78,19 +75,19 @@ h5 {
 }
 @media (min-width: 768px) and (max-width: 1400px) and (orientation: landscape) {
   .modal-content {
-    max-width: 100%;
+    max-width: 60% !important;
     max-height: 100%;
     margin-top: 10% !important;
   }
   .calculate,
   .bodyModal {
     line-height: 19px;
-    font-size: 16px;
+    font-size: 13px;
   }
 }
 @media (min-width: 768px) and (max-width: 1400px) and (orientation: portrait) {
   .modal-content {
-    max-width: 100%;
+    width: 600px !important;
     max-height: 100%;
   }
 }
@@ -106,17 +103,17 @@ h5 {
   .bodyModal,
   .textLeft {
     line-height: 19px;
-    font-size: 14px;
+    font-size: 13px;
   }
   .payment {
     width: 65px;
     height: 35px;
-    font-size: 14px;
+    font-size: 13px;
   }
   .term {
     width: 65px;
     height: 35px;
-    font-size: 14px;
+    font-size: 13px;
   }
   .paymentterm {
     align-items: flex-start;
@@ -136,12 +133,12 @@ h5 {
   .payment {
     width: 65px;
     height: 35px;
-    font-size: 14px;
+    font-size: 13px;
   }
   .term {
     width: 65px;
     height: 35px;
-    font-size: 14px;
+    font-size: 13px;
   }
   .paymentterm {
     align-items: flex-start;
@@ -155,6 +152,6 @@ h5 {
   .bodyModal,
   .textLeft {
     line-height: 19px;
-    font-size: 14px;
+    font-size: 13px;
   }
 }

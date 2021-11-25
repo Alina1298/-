@@ -25,16 +25,6 @@ html,
   align-items: center;
   margin-top: 400px;
 }
-@media (min-width: 768px) and (max-width: 1400px) and (orientation: portrait) {
-  .buttons {
-    margin-top: 70%;
-  }
-}
-@media (min-width: 768px) and (max-width: 1400px) and (orientation: landscape) {
-  .buttons {
-    margin-top: 25%;
-  }
-}
 @media (max-width: 767px) and (orientation: landscape) {
   .buttons {
     margin-top: 15%;

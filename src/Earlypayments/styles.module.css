@@ -14,46 +14,46 @@
 }
 .text {
   font-style: normal;
-  font-size: 19px;
+  font-size: 14px;
   line-height: 40px;
 }
 .year {
   font-style: normal;
-  font-size: 19px;
+  font-size: 14px;
   line-height: 40px;
   color: grey;
 }
 @media (max-width: 767px) and (orientation: portrait) {
   .text {
     font-style: normal;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 10px;
   }
   .year {
     font-style: normal;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 10px;
     color: grey;
   }
   label {
-    font-size: 16px;
+    font-size: 13px;
     padding-bottom: 10px;
   }
 }
 @media (max-width: 767px) and (orientation: landscape) {
   .text {
     font-style: normal;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 10px;
   }
   .year {
     font-style: normal;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 10px;
     color: grey;
   }
   label {
-    font-size: 16px;
+    font-size: 13px;
     padding-bottom: 10px;
   }
 }
