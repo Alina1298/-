@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tax-deduction/static/css/main.d74b9dec.chunk.css",
-    "main.js": "/tax-deduction/static/js/main.5d140509.chunk.js",
-    "main.js.map": "/tax-deduction/static/js/main.5d140509.chunk.js.map",
+    "main.css": "/tax-deduction/static/css/main.39b8cf11.chunk.css",
+    "main.js": "/tax-deduction/static/js/main.749749a4.chunk.js",
+    "main.js.map": "/tax-deduction/static/js/main.749749a4.chunk.js.map",
     "runtime-main.js": "/tax-deduction/static/js/runtime-main.7be2b91b.js",
     "runtime-main.js.map": "/tax-deduction/static/js/runtime-main.7be2b91b.js.map",
     "static/css/2.383c0125.chunk.css": "/tax-deduction/static/css/2.383c0125.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.f3b10f85.chunk.js.map": "/tax-deduction/static/js/2.f3b10f85.chunk.js.map",
     "index.html": "/tax-deduction/index.html",
     "static/css/2.383c0125.chunk.css.map": "/tax-deduction/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.d74b9dec.chunk.css.map": "/tax-deduction/static/css/main.d74b9dec.chunk.css.map",
+    "static/css/main.39b8cf11.chunk.css.map": "/tax-deduction/static/css/main.39b8cf11.chunk.css.map",
     "static/js/2.f3b10f85.chunk.js.LICENSE.txt": "/tax-deduction/static/js/2.f3b10f85.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7be2b91b.js",
     "static/css/2.383c0125.chunk.css",
     "static/js/2.f3b10f85.chunk.js",
-    "static/css/main.d74b9dec.chunk.css",
-    "static/js/main.5d140509.chunk.js"
+    "static/css/main.39b8cf11.chunk.css",
+    "static/js/main.749749a4.chunk.js"
   ]
 }
